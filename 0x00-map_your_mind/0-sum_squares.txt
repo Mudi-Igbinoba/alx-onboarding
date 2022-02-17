@@ -1,0 +1,9 @@
+This is a program to calculate the sum of squares of given input of numbers
+
+1. Accept the argument to represent n
+2. Let sum = 0 and i = 1
+3. For i = 1 to n, do
+    sum = sum + (i * i)
+4. Increase i by 1 
+5. Repeat step 3 and 4 until i is less than or equal to n (i <= n)
+6. Print sum
