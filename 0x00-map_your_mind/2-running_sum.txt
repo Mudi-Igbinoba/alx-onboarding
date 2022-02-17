@@ -1,0 +1,8 @@
+This is a program that calculates a running sum 
+
+Read x
+Set sum to 0;
+While(x >= 0)
+ Set sum to x + sum
+ Read x
+Print sum when x < 0
