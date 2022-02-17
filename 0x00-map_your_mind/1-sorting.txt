@@ -1,0 +1,13 @@
+This is a program that reads in three numbers and writes them all in sorted order
+
+Read a, b, c
+If(a < b)
+    If(b < c) then write a, b, c 
+    Else
+        If(c < a) then write c, a, b 
+        Else write a, c, b 
+Else
+If(a < c) then write b, a, c 
+    Else
+        If(c < b) then write c, b, a
+        Else write b, c, a
